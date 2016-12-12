@@ -9,16 +9,20 @@ nav a {
     background-size: contain;
     opacity: 0.3;
     height: 1000px;
-    width: 1000px;
+    width: 50vw;
+    margin: 0 27vw 0 23vw;
     position: absolute;
-    right: -59vw;
-    top: -282px;
+    top: -300px;
+    left: 0;
+    right: 0;
 }
 
-@media screen and (min-width: 800px) {
-    #eye {
-        right: -5vw;
-    }
+.tile {
+    text-align: center;
+    border-radius: 5px;
+    width: 10vw;
+    background-color: #EF8642;
+    color: #fff;
 }
 
 
