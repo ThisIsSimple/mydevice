@@ -1,14 +1,24 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
-
-/*
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 nav a {
     border: 0;
+}
+
+#eye {
+    background: url("../../images/eye_pattern.png") no-repeat center center;
+    background-size: contain;
+    opacity: 0.3;
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    right: -59vw;
+    top: -282px;
+}
+
+@media screen and (min-width: 800px) {
+    #eye {
+        right: -5vw;
+    }
 }
 
 
