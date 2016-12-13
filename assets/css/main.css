@@ -1,8 +1,18 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+nav {
+    background-color: #666;
+    padding: 5px;
+}
+
 nav a {
     border: 0;
-    color: rgba(0, 0, 0, 0.75);
+    color: rgba(255, 255, 255, 255.75);
+    font-weight: bold;
+}
+
+table tr th {
+    text-align: center;
     font-weight: bold;
 }
 
@@ -16,6 +26,7 @@ nav a {
     top: -300px;
     left: 0;
     right: 0;
+    opacity: 0.75;
 }
 
 .tile {
@@ -32,6 +43,43 @@ nav a {
     font-size: 1em;
     font-weight: bold;
     line-height: 1.8rem;
+}
+
+.color1 {
+    color: #c3e895;
+}
+
+.color2 {
+    color: #8addaa;
+}
+
+.color3 {
+    color: #6bd4c8;
+}
+
+.color4 {
+    color: #57aed3;
+}
+
+.color5 {
+    color: #4a87d3;
+}
+
+.color6 {
+    color: #6b88e6;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.frame {
+    border: 2px solid;
+    width: 100%;
+}
+
+.frame.round {
+    border-radius: 5px;
 }
 
 
